@@ -5,7 +5,9 @@
 
 .landing-jumbo {
     border: 1px solid hsl(0, 100%, 39%);
-    padding: 200px;
+    padding: 50px;
+    margin: 10px auto;
+    width: 50%;
 }
 
 p {
@@ -19,4 +21,17 @@ p {
     border: 1px solid hsl(0, 100%, 39%);
     display: block;
     margin: 0 auto;
+}
+
+.login-form {
+    border: 1px solid hsl(0, 100%, 39%);
+    padding: 50px;
+    margin: 5px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.register-link {
+    margin-top: 30px;
+    justify-content: right
 }
