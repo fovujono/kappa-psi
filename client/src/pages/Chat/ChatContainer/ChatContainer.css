@@ -3,28 +3,37 @@
     padding: 0;
 }
 
-.chat-wrapper,.chat-navbar-container,.chat-sidebar-container,.chat-box-container{
+.chat-navbar-container,.chat-sidebar-container,.chat-box-container,.chat-footer-container{
     border: solid;
 }
 
 
 .chat-wrapper{
     height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .chat-navbar-container{
+    width: 100%;
 
 }
 
 .chat-sidebar-container{
+    width: 20%;
+    height: 800px;
 
 }
 
 .chat-box-container{
+    display: flex;
+    flex-direction: flex-end;
+    width: 80%;
 
 }
 
 
 .chat-footer-container{
+    width: 100%;
 
 }
