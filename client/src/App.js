@@ -7,12 +7,14 @@ import LandingPageContainer from './pages/LandingPage/LandingPageContainer/Landi
 
 const App = () => {
     return (
+        <div>
         <Router>
             <Route exact path="/" component={LandingPageContainer}/>
             <Route exact path="/chat" component={ChatContainer}/>
             <Route exact path="/docs" component={DocumentContainer}/>
             <Route exact path="/calender" component={CalenderContainer}/>
         </Router>
+        </div>
     )
 }
 
