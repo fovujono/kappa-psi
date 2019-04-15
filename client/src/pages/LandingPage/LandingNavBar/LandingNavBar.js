@@ -1,4 +1,5 @@
 import React from "react";
+import "../LandingNavBar/LandingNavBar.css"
 
 class LandingNavBar extends React.Component {
   constructor(props) {
@@ -6,7 +7,18 @@ class LandingNavBar extends React.Component {
   }
 
   render() {
-    return <div>LandingNavBar</div>;
+    return (
+    <div className="nav-container"> 
+    <div className="nav-links">
+
+        <a href="/">|  Home  |</a>
+        <a href='/chat'>  Chat  |</a>
+        <a href='/docs'>  Docs  |</a>
+        <a href='/calendar'>  Calendar  |</a>
+
+    </div>
+    </div>
+    )
   }
 }
 
