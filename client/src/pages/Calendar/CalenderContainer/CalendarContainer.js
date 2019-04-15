@@ -7,7 +7,7 @@ class CalenderContainer extends React.Component{
 
     render(){
         return(
-            <div> CalenderContainer</div>
+            <div> CalendarContainer</div>
         )
     }
 
