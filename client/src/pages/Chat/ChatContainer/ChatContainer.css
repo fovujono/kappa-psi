@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.chat-wrapper,.chat-navbar-container,.chat-sidebar-container,.chat-box-container{
+    border: solid;
+}
+
+
+.chat-wrapper{
+    height: 100vh;
+}
+
+.chat-navbar-container{
+
+}
+
+.chat-sidebar-container{
+
+}
+
+.chat-box-container{
+
+}
+
+
+.chat-footer-container{
+
+}
