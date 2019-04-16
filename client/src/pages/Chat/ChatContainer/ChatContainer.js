@@ -1,5 +1,7 @@
 import React from "react";
 import "../ChatContainer/ChatContainer.css";
+import Nav from "../../../GlobalComponents/Nav/Nav"
+
 
 class ChatContainer extends React.Component {
   constructor(props) {
@@ -10,12 +12,7 @@ class ChatContainer extends React.Component {
     return (
       <div className="chat-wrapper">
         <div className="chat-navbar-container">
-          <ul>
-            <li>Link 1</li>
-            <li>Link 2</li>
-            <li>Link 3</li>
-            <li>Link 4</li>
-          </ul>
+        <Nav />
         </div>
 
         <div className="chat-sidebar-container">
