@@ -1,5 +1,4 @@
 import React from "react";
-import Nav from "../../../GlobalComponents/Nav/Nav"
 import "../LandingPageContainer/LandingPageContainer.css"
 
 class LandingPageContainer extends React.Component {
@@ -10,7 +9,6 @@ class LandingPageContainer extends React.Component {
   render() {
     return (
     <div className="wrapper">
-      <Nav />
 
       <div className="landing-jumbo">
         <p><h1>Welcome to the Kappa Psi Messaging App</h1></p>
@@ -27,7 +25,6 @@ class LandingPageContainer extends React.Component {
             <br></br>
             Password: 
             <input type="text" name="password" placeholder="******"></input>
-            <p className="register-link">Don't have an account: <a href="#">create one</a></p>
           </form>
         </div>
       </div>
