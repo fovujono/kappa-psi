@@ -1,6 +1,5 @@
 import React from "react";
 import "../ChatContainer/ChatContainer.css";
-import Nav from "../../../GlobalComponents/Nav/Nav"
 
 
 class ChatContainer extends React.Component {
@@ -11,9 +10,6 @@ class ChatContainer extends React.Component {
   render() {
     return (
       <div className="chat-wrapper">
-        <div className="chat-navbar-container">
-        <Nav />
-        </div>
 
         <div className="chat-sidebar-container">
 

@@ -11,14 +11,12 @@
 }
 
 p {
-    border: 1px solid hsl(0, 100%, 39%);
     text-align: center;
 }
 
 .crest {
     height: 200px;
     width: 200px;
-    border: 1px solid hsl(0, 100%, 39%);
     display: block;
     margin: 0 auto;
 }

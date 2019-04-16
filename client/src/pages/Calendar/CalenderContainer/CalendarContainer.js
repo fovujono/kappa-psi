@@ -1,4 +1,6 @@
 import React from 'react';
+import Nav from "../../../GlobalComponents/Nav/Nav"
+
 
 class CalenderContainer extends React.Component{
     constructor(props){
@@ -7,8 +9,14 @@ class CalenderContainer extends React.Component{
 
     render(){
         return(
+            <div class="wrapper">
+
+            <Nav />
+
             
             <div>CalendarContainer</div>
+
+            </div>
         )
     }
 
