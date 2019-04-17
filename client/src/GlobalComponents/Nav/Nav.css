@@ -17,3 +17,7 @@
 .nav-links a {
     color: black;
 }
+
+.selected{
+    font-weight: bold;
+}
