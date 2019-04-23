@@ -10,9 +10,6 @@ class CalenderContainer extends React.Component{
     render(){
         return(
             <div class="wrapper">
-
-            <Nav />
-
             
             <div>CalendarContainer</div>
 

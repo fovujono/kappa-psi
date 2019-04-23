@@ -1,0 +1,11 @@
+.document-container, .upload-documents {
+    border: 1px solid hsl(0, 100%, 39%);
+    padding: 50px;
+    margin: 10px auto;
+    width: 80%;
+    text-align: left;
+}
+
+ul {
+    text-align: left;
+}
