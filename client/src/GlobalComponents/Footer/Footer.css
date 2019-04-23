@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container {
+    padding: 20px;
+    border: hsl(0, 100%, 39%) 1px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-landing-text {
+    text-align: left;
+}
+
+.nav-links a {
+    color: black;
+}
