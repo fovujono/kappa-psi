@@ -1,0 +1,29 @@
+.today-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 250px;
+  width: 80%;
+  border: solid firebrick;
+  text-align: center;
+}
+
+.header {
+  font-size: 40px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.today-content {
+  width: 100%;
+}
+
+.event {
+  width: 100%;
+}
+
+.add-button{
+    height: 40px;
+    width: 200px;
+}
