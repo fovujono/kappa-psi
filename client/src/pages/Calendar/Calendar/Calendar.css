@@ -1,0 +1,10 @@
+.calendar-container{
+    margin: 0 auto;
+    border: firebrick solid;
+    height: 500px;
+    width: 80%;
+}
+
+.calendar-header{
+    text-align: center;
+}
