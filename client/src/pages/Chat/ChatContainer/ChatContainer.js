@@ -1,5 +1,6 @@
 import React from "react";
 import "../ChatContainer/ChatContainer.css";
+import ChatSideBar from "../ChatSideBar/ChatSideBarContainer/ChatSideBarContainer.js";
 
 
 class ChatContainer extends React.Component {
@@ -13,7 +14,8 @@ class ChatContainer extends React.Component {
 
         <div className="chat-sidebar-container">
 
-        side bar
+        <ChatSideBar />
+        
         
         </div>
 

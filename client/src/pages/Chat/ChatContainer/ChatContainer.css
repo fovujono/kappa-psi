@@ -21,8 +21,8 @@
 
 .chat-sidebar-container{
     width: 20%;
-    height: 800px;
-
+    min-height: 800px;
+    height: auto;
 }
 
 .chat-box-container{
