@@ -25,7 +25,9 @@ class LandingPageContainer extends React.Component {
             <br></br>
             Password: 
             <input type="text" name="password" placeholder="******"></input>
+            <button className="landingpage-button">Submit</button>
           </form>
+
         </div>
       </div>
     </div>
