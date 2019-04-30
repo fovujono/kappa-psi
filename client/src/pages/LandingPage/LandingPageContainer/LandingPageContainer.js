@@ -1,5 +1,8 @@
 import React from "react";
 import "../LandingPageContainer/LandingPageContainer.css"
+import SignUpDiv from "../SignUpDiv/SignUpDiv";
+
+
 
 class LandingPageContainer extends React.Component {
   constructor(props) {
@@ -16,20 +19,8 @@ class LandingPageContainer extends React.Component {
       </div>
 
       <div className="container">
-        <div>
-          <form className='login-form'>
-            <h2>Log-In</h2>
-            Username: 
-            <input type="text" name="username" placeholder="ilovekappapsi"></input>
-            <br></br>
-            <br></br>
-            Password: 
-            <input type="text" name="password" placeholder="******"></input>
-            <button className="landingpage-button">Submit</button>
-          </form>
-
-        </div>
-      </div>
+        <SignUpDiv />
+    </div>
     </div>
     )  
   }
