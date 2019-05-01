@@ -5,7 +5,7 @@ class Calendar extends Component {
   render() {
     return (
       <div className="calendar-container">
-        <header class="calendar-header">Calendar</header>
+        <header className="calendar-header">Calendar</header>
       </div>
     )
   }
