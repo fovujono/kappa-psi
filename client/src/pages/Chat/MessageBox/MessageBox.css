@@ -1,0 +1,57 @@
+.message-display{
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 75%;
+    width:85%;
+    border: solid .5px;
+    border-radius: 5px;
+    background-color:rgb(180, 180, 180);
+}
+
+.messages{
+    margin: 0 auto;
+    padding: 15px;
+    width:100%;
+    /* border: solid; */
+    list-style: none;
+}
+
+
+
+.user-message,.friend-message{
+    border: solid .5px;
+    margin: 0 auto;
+    margin-bottom:10px;
+    margin-top: 10px;
+    min-height: 50px;
+    padding: 12px;
+    width: 100%;
+}
+
+.user-message{
+    background: rgba(223, 229, 121, 0.9);
+}
+.friend-message{
+    background: rgba(0, 167, 204, 0.9);
+
+}
+.form-container{
+  width: 100%
+}
+textarea{
+    display: flex;
+    min-height: 50px;
+    max-height: 150px;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #d4d4d4;
+    resize: none;
+}
+textarea:focus {
+    background-color: rgb(233, 233, 233);
+    outline: none;
+  }
