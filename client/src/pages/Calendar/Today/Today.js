@@ -1,27 +1,38 @@
 import React, { Component } from "react";
-import moment from "moment";
+import moment from 'moment';
 import "../Today/Today.css";
 
 class Today extends Component {
+  constructor(){
+    super()
+    this.state ={
+      date: moment().format("dddd, MMMM Do, YYYY ").toString(),
+      time: moment().format("LT").toString()
+    }
+  }
+
+
+
+  componentDidMount = () =>{
+    this.tick = setInterval(()=> this.setState({time:  moment().format("LT").toString()}), 1000);
+  }
+
+   
+  componentWillUnmount(){
+    clearInterval(this.tick);
+}
+
+
   render() {
     return (
       <div className="today-container">
-        {/* use moment to get date and time */}
-        <div className="header">
-          Today is:
-          <h1>
-            {moment()
-              .format("dddd, MMMM Do, YYYY ")
-              .toString()}
-          </h1>
-          <h2>
-            Time:{" "}
-            {moment()
-              .format("LT")
-              .toString()}
-          </h2>
-        </div>
+      {/* use moment to get date and time */}
+      <div className="header">Today is:
+        <h1>{this.state.date}</h1>
+
+      <h2>Time: </h2>{this.state.time}</div>
         <div className="today-content">
+          
           <div className="event">Your events will be here</div>
         </div>
 
