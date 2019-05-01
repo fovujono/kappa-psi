@@ -11,7 +11,7 @@ class CalenderContainer extends React.Component{
 
     render(){
         return(
-            <div class="wrapper">
+            <div className="wrapper">
             <Today/>
             <Calendar/>
 
