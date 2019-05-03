@@ -1,31 +1,38 @@
 .message-display{
     margin: 0 auto;
-    margin-top: 50px;
-    height: 75%;
-    width:85%;
+    margin-top: 30px;
+    height: 70%;
+    width:80%;
     border: solid .5px;
     border-radius: 5px;
     background-color:rgb(180, 180, 180);
+    overflow:auto;
 }
 
 .messages{
+    display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
     padding: 15px;
     width:100%;
     /* border: solid; */
     list-style: none;
+   
 }
 
 
 
 .user-message,.friend-message{
+    word-wrap: break-word;
     border: solid .5px;
     margin: 0 auto;
-    margin-bottom:10px;
-    margin-top: 10px;
+    margin-bottom:5px;
+    margin-top: 5px;
     min-height: 50px;
+    max-height: auto;
     padding: 12px;
     width: 100%;
+    overflow: none;
 }
 
 .user-message{
@@ -42,7 +49,7 @@ textarea{
     display: flex;
     min-height: 50px;
     max-height: 150px;
-    width: 85%;
+    width: 80%;
     margin: 0 auto;
     margin-top: 20px;
     padding: 10px;

@@ -7,6 +7,18 @@ class MessageBox extends React.Component {
     super(props);
   }
 
+  componentDidMount() {
+    this.scrollToBottom();
+  }
+
+  componentDidUpdate() {
+    this.scrollToBottom();
+  }
+
+  scrollToBottom() {
+    this.el.scrollIntoView({ behavior: 'auto' });
+  }
+
   render() {
     return (
       <div className="form-container">
@@ -16,11 +28,16 @@ class MessageBox extends React.Component {
                 <li className="user-message">YOUR MESSAGE</li>
                 <li className="friend-message">FRIENDS MESSAGE</li>
                 <li className="user-message">YOUR MESSAGE</li>
-                <li className="friend-message">FRIENDS MESSAGE</li>
+                <li className="friend-message">LONGER MESSAGE MESSAGEeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee MESSAGEeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee:picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick: :picklerick:</li>
                 <li className="user-message">YOUR MESSAGE</li>
                 <li className="friend-message">FRIENDS MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li>
+
                 
+       
             </ul>
+            <div ref={el => { this.el = el; }} />
         </div>
         
         <form>
