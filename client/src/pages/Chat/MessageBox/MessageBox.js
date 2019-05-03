@@ -12,11 +12,11 @@ class MessageBox extends React.Component {
   }
 
   componentDidUpdate() {
-    this.scrollToBottom();
+    this.el.scrollIntoView({behavior: "scroll", block: "end", inline: "nearest" });
   }
 
   scrollToBottom() {
-    this.el.scrollIntoView({ behavior: 'auto' });
+    this.el.scrollIntoView({behavior: "auto", block: "end", inline: "nearest" });
   }
 
   render() {
@@ -32,6 +32,47 @@ class MessageBox extends React.Component {
                 <li className="user-message">YOUR MESSAGE</li>
                 <li className="friend-message">FRIENDS MESSAGE</li>
                 <li className="user-message">YOUR MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li>
+                <li className="friend-message">FRIENDS MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li> <li className="user-message">YOUR MESSAGE</li>
+                <li className="friend-message">FRIENDS MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li> <li className="user-message">YOUR MESSAGE</li>
+                <li className="friend-message">FRIENDS MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li> <li className="user-message">YOUR MESSAGE</li>
+                <li className="friend-message">FRIENDS MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li> <li className="user-message">YOUR MESSAGE</li>
+                <li className="friend-message">FRIENDS MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li> <li className="user-message">YOUR MESSAGE</li>
+                <li className="friend-message">FRIENDS MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li> <li className="user-message">YOUR MESSAGE</li>
+                <li className="friend-message">FRIENDS MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li> <li className="user-message">YOUR MESSAGE</li>
+                <li className="friend-message">FRIENDS MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li> <li className="user-message">YOUR MESSAGE</li>
+                <li className="friend-message">FRIENDS MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li> <li className="user-message">YOUR MESSAGE</li>
+                <li className="friend-message">FRIENDS MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li> <li className="user-message">YOUR MESSAGE</li>
+                <li className="friend-message">FRIENDS MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li> <li className="user-message">YOUR MESSAGE</li>
+                <li className="friend-message">FRIENDS MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li>  <li className="user-message">YOUR MESSAGE</li>
+                <li className="user-message">YOUR MESSAGE</li>  <li className="user-message">YOUR MESSAGE</li>
                 <li className="user-message">YOUR MESSAGE</li>
 
                 
