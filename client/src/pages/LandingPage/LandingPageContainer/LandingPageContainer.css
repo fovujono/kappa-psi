@@ -8,6 +8,15 @@
     padding: 50px;
     margin: 10px auto;
     width: 50%;
+    background-color: white;
+}
+
+.carousel-landing {
+    border: 1px solid hsl(0, 100%, 39%);
+    padding: 50px;
+    margin: 10px auto;
+    width: 50%;
+    background-color: white;
 }
 
 p {
@@ -32,4 +41,8 @@ p {
 .register-link {
     margin-top: 30px;
     justify-content: right
+}
+
+.landingpage-button {
+    padding: 5px;
 }
