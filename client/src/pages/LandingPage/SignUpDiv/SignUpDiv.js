@@ -2,7 +2,7 @@ import React from 'react'
 import { Button, Divider, Form, Grid, Segment } from 'semantic-ui-react'
 
 const divStyle = {
-  border: '1px solid hsl(0, 100%, 39%)'
+  boxShadow: '1px 1px 1px 1px lightgrey'
 };
 
 const SignUpDiv = () => (
