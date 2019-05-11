@@ -1,8 +1,12 @@
 import React from 'react'
 import { Button, Divider, Form, Grid, Segment } from 'semantic-ui-react'
 
+const divStyle = {
+  boxShadow: '1px 1px 1px 1px lightgrey'
+};
+
 const SignUpDiv = () => (
-  <Segment placeholder>
+  <Segment placeholder style={divStyle}>
     <Grid columns={2} relaxed='very' stackable>
       <Grid.Column>
         <Form>
