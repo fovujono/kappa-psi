@@ -16,7 +16,7 @@ class LandingPageContainer extends React.Component {
     <div className="wrapper">
 
       <div className="landing-jumbo">
-        <p><h1>Kappa Psi Messaging App</h1></p>
+        <p><h1 id='title'>Kappa Psi Messaging App</h1></p>
       </div>
 
       <div className="carousel-landing">

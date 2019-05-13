@@ -7,6 +7,9 @@
     border: solid;
 }
 
+.chat-navbar-container,.chat-sidebar-container,.chat-box-container {
+    background: white;
+}
 
 .chat-wrapper{
     height: 100vh;

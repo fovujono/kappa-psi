@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../Documents/DocumentContainer/Document.css'
+import '../../Documents/DocumentContainer/DocumentContainer.css'
 
 class DocumentContainer extends React.Component{
     constructor(props){

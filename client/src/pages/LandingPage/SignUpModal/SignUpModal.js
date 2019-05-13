@@ -15,7 +15,10 @@ const SignUpModal = () => (
                 <label>Last Name</label><input placeholder="Last Name" />
             </div>
             <div class="field">
-                <label>Username</label><input placeholder="UserName" />
+                <label>Username</label><input placeholder="Username" />
+            </div>
+            <div class="field">
+                <label>Password</label><input placeholder="Password" />
             </div>
             <button type="submit" class="ui button">Submit</button>
         </form>

@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-image: url('/images/qbkls.png')
+    background-image: url('/images/qbkls.png');
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .landing-jumbo {
