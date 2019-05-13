@@ -2,6 +2,7 @@ import React from "react";
 import "../LandingPageContainer/LandingPageContainer.css"
 import SignUpDiv from "../SignUpDiv/SignUpDiv";
 import LandingImages from "../LandingImages/LandingImages"
+import SignUpModal from "../SignUpModal/SignUpModal";
 
 
 
@@ -26,7 +27,10 @@ class LandingPageContainer extends React.Component {
         <SignUpDiv />
       </div>
 
+      <div className="sign-up-modal-button">
       
+      
+      </div>
 
     </div>
     )  

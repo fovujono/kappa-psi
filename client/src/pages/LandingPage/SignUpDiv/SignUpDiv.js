@@ -20,7 +20,7 @@ const SignUpDiv = () => (
       </Grid.Column>
 
       <Grid.Column verticalAlign='middle'>
-        <Button className="sign-up-button" content='Sign up' icon='signup' size='big' />
+      <SignUpModal />
       </Grid.Column>
     </Grid>
 
