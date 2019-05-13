@@ -2,14 +2,23 @@ import React from 'react'
 import { Button, Header, Image, Modal } from 'semantic-ui-react'
 
 const SignUpModal = () => (
-  <Modal trigger={<Button>Show Modal</Button>}>
-    <Modal.Header>Select a Photo</Modal.Header>
+  <Modal trigger={<Button>Sign Up</Button>}>
+    <Modal.Header>Sign Up</Modal.Header>
     <Modal.Content image>
-      <Image wrapped size='medium' src='https://react.semantic-ui.com/images/avatar/large/rachel.png' />
+    <Image wrapped size='medium' src='/images/ky.png' />
       <Modal.Description>
-        <Header>Default Profile Image</Header>
-        <p>We've found the following gravatar image associated with your e-mail address.</p>
-        <p>Is it okay to use this photo?</p>
+        <form class="ui form">
+            <div class="field">
+                <label>First Name</label><input placeholder="First Name" />
+            </div>
+            <div class="field">
+                <label>Last Name</label><input placeholder="Last Name" />
+            </div>
+            <div class="field">
+                <label>Username</label><input placeholder="UserName" />
+            </div>
+            <button type="submit" class="ui button">Submit</button>
+        </form>
       </Modal.Description>
     </Modal.Content>
   </Modal>
