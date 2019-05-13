@@ -1,5 +1,7 @@
 import React from 'react'
 import { Button, Divider, Form, Grid, Segment } from 'semantic-ui-react'
+import SignUpModal from "../SignUpModal/SignUpModal"
+
 
 const divStyle = {
   boxShadow: '1px 1px 1px 1px lightgrey'
@@ -18,7 +20,7 @@ const SignUpDiv = () => (
       </Grid.Column>
 
       <Grid.Column verticalAlign='middle'>
-        <Button content='Sign up' icon='signup' size='big' />
+        <Button className="sign-up-button" content='Sign up' icon='signup' size='big' />
       </Grid.Column>
     </Grid>
 

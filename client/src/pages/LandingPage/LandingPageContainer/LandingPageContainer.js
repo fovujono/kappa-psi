@@ -15,17 +15,19 @@ class LandingPageContainer extends React.Component {
     <div className="wrapper">
 
       <div className="landing-jumbo">
-        <p><h1>Welcome to the Kappa Psi Messaging App</h1></p>
-        <img className="crest" src="/images/kpsi-crest.jpg" alt="kappa-psi-crest"></img>
+        <p><h1>Kappa Psi Messaging App</h1></p>
       </div>
 
       <div className="carousel-landing">
         <LandingImages />
       </div>
 
-      <div className="landing-jumbo">
+      <div className="sign-up-div">
         <SignUpDiv />
-    </div>
+      </div>
+
+      
+
     </div>
     )  
   }
