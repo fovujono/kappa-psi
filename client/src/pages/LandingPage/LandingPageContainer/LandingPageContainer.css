@@ -8,21 +8,26 @@ body {
 }
 
 .landing-jumbo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid black;
-    padding: 50px;
     margin: 10px auto;
-    width: 50%;
-    background-color: hsl(0, 100%, 39%);
+    width: 60%;
+    background-color: hsla(0, 100%, 39%, 0.801);
     color: lightgray;
-
+    text-shadow: 2px 2px 2px black,
+                2px 2px 2px black,
+                2px 2px 2px black,
+                2px 2px 2px black;
 }
 
 .carousel-landing {
     border: 1px solid black;
     padding: 50px;
     margin: 10px auto;
-    width: 50%;
-    background-color: hsl(0, 100%, 39%);
+    width: 60%;
+    background-color: hsl(0, 100%, 39%, 0.801);
 }
 
 p {
@@ -37,14 +42,14 @@ p {
     box-shadow: 1px 1px 1px 1px hsl(0, 100%, 39%)
 }
 
-.login-form {
-    border: 1px solid hsl(0, 100%, 39%);
-    padding: 50px;
-    margin: 5px;
-    width: 50%;
-    margin: 0 auto;
-    background: lightgray
+.sign-up-div {
+    background-color: hsl(0, 100%, 39%, 0.801);
+    border: 1px solid black;
+    margin: 10px auto;
+    padding: 10px;
+    width: 60%;
 }
+
 
 .register-link {
     margin-top: 30px;
