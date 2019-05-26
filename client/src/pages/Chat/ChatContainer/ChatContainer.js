@@ -2,26 +2,45 @@ import React from "react";
 import "../ChatContainer/ChatContainer.css";
 import ChatSideBar from "../ChatSideBar/ChatSideBarContainer/ChatSideBarContainer.js";
 import MessageBox from "../MessageBox/MessageBox.js";
+import io from 'socket.io-client';
 
+const socketURL = "http://192.168.0.4:4001/"
 
 class ChatContainer extends React.Component {
   constructor(props) {
     super(props);
+
+    this.state = { 
+      socket: null
+    };
   }
+
+  componentWillMount() {
+    this.initializeSocket()
+  }
+
+
+    initializeSocket = () => {
+      const socket = io(socketURL);
+      socket.on('connect', ()=>{
+        console.log("Connected");
+      })
+
+      this.setState({socket})
+
+    }
+
+
 
   render() {
     return (
       <div className="chat-wrapper">
-
         <div className="chat-sidebar-container">
-
-        <ChatSideBar />
-        
-        
+          <ChatSideBar />
         </div>
 
         <div className="chat-box-container">
-        <MessageBox/>
+          <MessageBox />
         </div>
 
         <div className="chat-footer-container">footer</div>

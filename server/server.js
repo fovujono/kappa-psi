@@ -1,4 +1,3 @@
-
 let app = require("http").createServer();
 let io = module.exports.io = require('socket.io')(app);
 let PORT = process.env.PORT || 4001;
@@ -10,5 +9,5 @@ io.on('connection', manager)
 
 app.listen(PORT ,(err) =>{
     if(err) throw err
-    console.log(`🌎  ==> API Server now listening on PORT ${PORT}`)
+    console.log(`🌎  ==> Server is now listening on PORT: ${PORT}`)
 });

@@ -2,7 +2,6 @@
   "name": "kappa-psi",
   "version": "1.0.0",
   "description": "Chat Application for Kappa Psi",
-  "main": "server.js",
   "dependencies": {
     "express": "^4.16.4",
     "http": "0.0.0",

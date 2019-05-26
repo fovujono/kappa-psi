@@ -3,9 +3,9 @@ import "./MessageBox.css";
 import TextareaAutosize from "react-autosize-textarea";
 
 class MessageBox extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   componentDidMount() {
     this.scrollToBottom();
