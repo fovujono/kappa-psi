@@ -5,7 +5,7 @@ import ChatContainer from './pages/Chat/ChatContainer/ChatContainer';
 import DocumentContainer from './pages/Documents/DocumentContainer/DocumentContainer';
 import LandingPageContainer from './pages/LandingPage/LandingPageContainer/LandingPageContainer';
 import Nav from './GlobalComponents/Nav/Nav'
-import Footer from './GlobalComponents/Footer/Footer'
+// import Footer from './GlobalComponents/Footer/Footer'
 
 const App = () => {
     return (
