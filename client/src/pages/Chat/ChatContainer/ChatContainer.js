@@ -3,7 +3,7 @@ import "../ChatContainer/ChatContainer.css";
 import ChatSideBar from "../ChatSideBar/ChatSideBarContainer/ChatSideBarContainer.js";
 import MessageBox from "../MessageBox/MessageBox.js";
 import io from 'socket.io-client';
-import {USER_CONNECTED} from '../../../socket/socketEvents';
+import {USER_CONNECTED, LOGOUT} from '../../../socket/socketEvents';
 
 const socketURL = "http://192.168.0.4:4001/"
 
