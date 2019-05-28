@@ -3,6 +3,7 @@ import "../ChatContainer/ChatContainer.css";
 import ChatSideBar from "../ChatSideBar/ChatSideBarContainer/ChatSideBarContainer.js";
 import MessageBox from "../MessageBox/MessageBox.js";
 import io from 'socket.io-client';
+import {USER_CONNECTED, LOGOUT} from '../../../socket/socketEvents';
 
 const socketURL = "http://192.168.0.4:4001/"
 
@@ -11,13 +12,29 @@ class ChatContainer extends React.Component {
     super(props);
 
     this.state = { 
-      socket: null
+      socket: null,
+      user: null
     };
   }
 
   componentWillMount() {
     this.initializeSocket()
   }
+
+
+  newUser = (user) =>{
+    const {socket} = this.state
+    socket.emit(USER_CONNECTED, user);
+    this.setState({user})
+  }
+
+  logUserOut = () => {
+    const {socket} = this.state;
+    socket.emit(LOGOUT);
+    this.setState({user: null});
+
+  }
+
 
 
     initializeSocket = () => {
