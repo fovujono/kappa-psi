@@ -1,27 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin');
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC');
-@import url('https://fonts.googleapis.com/css?family=Signika');
-@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
-@import url('https://fonts.googleapis.com/css?family=Sawarabi+Gothic');
+
 * {
     margin: 0;
     padding: 0;
 }
 
 .nav-container{
-    height: 30px;
+    height: 41px;
     border: hsl(0, 100%, 39%) 1px solid;
 }
 .nav-links{
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    /* border: solid green; */
     align-items: center;
     width: 75%;
     font-size: 20px;
-    /* font-family: 'Signika', sans-serif; */
-    /* font-family: 'Pathway Gothic One', sans-serif; */
-    /* font-family: 'Sawarabi Gothic', sans-serif; */
     font-family: 'Cabin', sans-serif;
 
 }
@@ -29,6 +23,7 @@
 .nav-item{
     text-align: center;
     width: 25%;
+    height: 40px;
     padding: 9px;
 }
 

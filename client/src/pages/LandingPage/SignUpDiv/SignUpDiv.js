@@ -15,7 +15,7 @@ const SignUpDiv = () => (
           <Form.Input icon='user' iconPosition='left' label='Username' placeholder='Username' />
           <Form.Input icon='lock' iconPosition='left' label='Password' type='password' />
 
-          <Button onSubmit={this.handleSubmit}content='Login' primary />
+          <Button content='Login' primary />
         </Form>
       </Grid.Column>
 
