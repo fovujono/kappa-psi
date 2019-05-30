@@ -1,11 +1,23 @@
 .calendar-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     margin: 0 auto;
     border: firebrick solid;
-    height: 500px;
+    min-height: 500px;
     width: 80%;
-    background: white;
+    background: white;  
 }
 
 .calendar-header{
     text-align: center;
+    width: 100%;
+}
+
+.day-segment{
+    border: solid;
+    margin: 10px;
+    padding: 11px;
+    height: 60px;
+    width: 80%;
 }

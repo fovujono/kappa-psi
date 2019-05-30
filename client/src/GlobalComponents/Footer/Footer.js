@@ -2,9 +2,9 @@ import React from "react";
 import "../Footer/Footer.css"
 
 class Footer extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   render() {
     return (
