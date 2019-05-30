@@ -5,7 +5,7 @@ import MessageBox from "../MessageBox/MessageBox.js";
 import io from 'socket.io-client';
 import {USER_CONNECTED, LOGOUT} from '../../../socket/socketEvents';
 
-const socketURL = "http://192.168.0.4:4001/"
+const socketURL = "http://192.168.10.28:4001/"
 
 class ChatContainer extends React.Component {
   constructor(props) {
