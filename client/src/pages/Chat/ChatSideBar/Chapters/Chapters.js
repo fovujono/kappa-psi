@@ -4,8 +4,9 @@ import "./Chapters.css";
 class Chapters extends Component {
   render() {
     return (
-      <div>
-        <header>Join Chapter +</header>
+      <div className="join-chapter">
+        <header className="join">Join Chapter </header>
+        <p className="plus">+</p>
       </div>
     );
   }

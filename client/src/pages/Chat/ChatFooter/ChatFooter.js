@@ -7,7 +7,7 @@ class ChatFooter extends React.Component{
 
     render(){
         return(
-            <div> ChatFooter</div>
+            <div>ChatFooter</div>
         )
     }
 
