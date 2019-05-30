@@ -5,7 +5,7 @@ import "../LandingImages/LandingImages.css";
 const fadeProperties = {
   duration: 3000,
   transitionDuration: 800,
-  infinite: false,
+  infinite: true,
   indicators: true,
   arrows: true
 };
