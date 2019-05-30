@@ -4,7 +4,7 @@ import "../DirectMessage/DirectMessage.css";
 class DirectMessage extends Component {
   render() {
     return (
-      <div>
+      <div className="direct-messages">
           Direct Message +
       </div>
     )

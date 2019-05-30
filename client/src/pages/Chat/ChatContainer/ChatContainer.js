@@ -2,52 +2,46 @@ import React from "react";
 import "../ChatContainer/ChatContainer.css";
 import ChatSideBar from "../ChatSideBar/ChatSideBarContainer/ChatSideBarContainer.js";
 import MessageBox from "../MessageBox/MessageBox.js";
-import io from 'socket.io-client';
-import {USER_CONNECTED, LOGOUT} from '../../../socket/socketEvents';
+import io from "socket.io-client";
+import { USER_CONNECTED, LOGOUT } from "../../../socket/socketEvents";
 
-const socketURL = "http://192.168.10.28:4001/"
+const socketURL = "http://192.168.10.24:4001//";
 
 class ChatContainer extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = { 
+
+    this.state = {
       socket: null,
       user: null
     };
   }
 
   componentWillMount() {
-    this.initializeSocket()
+    this.initializeSocket();
   }
 
-
-  newUser = (user) =>{
-    const {socket} = this.state
+  newUser = user => {
+    const { socket } = this.state;
     socket.emit(USER_CONNECTED, user);
-    this.setState({user})
-  }
+    this.setState({ user });
+  };
 
   logUserOut = () => {
-    const {socket} = this.state;
+    const { socket } = this.state;
     socket.emit(LOGOUT);
-    this.setState({user: null});
+    this.setState({ user: null });
+  };
 
-  }
+  initializeSocket = () => {
+    const socket = io(socketURL);
+    socket.on("connect", () => {
+      console.log("Connected");
+    });
 
-
-
-    initializeSocket = () => {
-      const socket = io(socketURL);
-      socket.on('connect', ()=>{
-        console.log("Connected");
-      })
-
-      this.setState({socket})
-
-    }
-
-
+    this.setState({ socket });
+  };
 
   render() {
     return (

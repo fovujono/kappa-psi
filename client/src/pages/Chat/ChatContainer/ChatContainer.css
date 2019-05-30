@@ -3,8 +3,8 @@
     padding: 0;
 }
 
-.chat-navbar-container,.chat-sidebar-container,.chat-box-container,.chat-footer-container{
-    border: solid;
+.chat-sidebar-container{
+    border-right:hsl(0, 100%, 39%) 1px solid;
 }
 
 .chat-navbar-container,.chat-sidebar-container,.chat-box-container {
@@ -23,7 +23,7 @@
 }
 
 .chat-sidebar-container{
-    width: 20%;
+    width: 30%;
     min-height: 800px;
     height: auto;
 }
@@ -31,7 +31,7 @@
 .chat-box-container{
     display: flex;
     flex-direction: flex-end;
-    width: 80%;
+    width: 70%;
 
 }
 

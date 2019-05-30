@@ -1,0 +1,18 @@
+.join-chapter{
+     border: hsl(0, 100%, 39%) 1px solid;
+    height: 40px;
+
+}
+
+.join{
+    display: flex;
+   
+    justify-content: flex-start;
+
+}
+
+.plus{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
