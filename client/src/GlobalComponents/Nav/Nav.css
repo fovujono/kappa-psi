@@ -6,8 +6,9 @@
 }
 
 .nav-container{
-    height: 41px;
-    border: hsl(0, 100%, 39%) 1px solid;
+    height: 50px;
+    background-color: rgb(212, 212, 212);
+    margin-bottom: 20px;
 }
 .nav-links{
     margin: 0 auto;
@@ -20,20 +21,27 @@
 
 }
 
+
 .nav-item{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    
     width: 25%;
-    height: 40px;
+    height: 49px;
     padding: 9px;
 }
 
-.nav-links a {
-    color: black;
+.nav-links a:hover {
+    color: rgb(100, 100, 100);
+    
 }
 
 .selected{
-    font-weight: bold;
-   
+    background-color: rgb(148, 148, 148);
+    transition: .5s;
+    color: white;
     border-bottom: 3px solid  red;
   
 }
