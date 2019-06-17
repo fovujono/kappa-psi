@@ -1,64 +1,58 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-image: url('/images/qbkls.png');
-    font-family: 'Ubuntu', sans-serif;
+  background-image: url("/images/qbkls.png");
+  font-family: "Ubuntu", sans-serif;
 }
 
 .landing-jumbo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-    margin: 10px auto;
-    width: 60%;
-    background-color: hsla(0, 100%, 39%, 0.801);
-    color: lightgray;
-    text-shadow: 2px 2px 2px black,
-                2px 2px 2px black,
-                2px 2px 2px black,
-                2px 2px 2px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  width: 60%;
+  background-color: hsla(0, 100%, 39%, 0.801);
+  color: lightgray;
+  text-shadow: 2px 2px 2px black, 2px 2px 2px black, 2px 2px 2px black,
+    2px 2px 2px black;
 }
 
 .carousel-landing {
-    border: 1px solid black;
-    padding: 50px;
-    margin: 10px auto;
-    width: 60%;
-    background-color: hsl(0, 100%, 39%, 0.801);
+  padding: 50px;
+  margin: 10px auto;
+  width: 60%;
+  background-color: hsl(0, 100%, 39%, 0.801);
 }
 
 p {
-    text-align: center;
+  text-align: center;
 }
 
 .crest {
-    height: 200px;
-    width: 200px;
-    display: block;
-    margin: 0 auto;
-    box-shadow: 1px 1px 1px 1px hsl(0, 100%, 39%)
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 1px 1px 1px 1px hsl(0, 100%, 39%);
 }
 
 .sign-up-div {
-    background-color: hsl(0, 100%, 39%, 0.801);
-    border: 1px solid black;
-    margin: 10px auto;
-    padding: 10px;
-    width: 60%;
+  background-color: hsl(0, 100%, 39%, 0.801);
+  margin: 10px auto;
+  padding: 10px;
+  width: 60%;
 }
 
-
 .register-link {
-    margin-top: 30px;
-    justify-content: right
+  margin-top: 30px;
+  justify-content: right;
 }
 
 .landingpage-button {
-    padding: 5px;
+  padding: 5px;
 }
